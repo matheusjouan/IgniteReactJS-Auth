@@ -20,6 +20,7 @@ export default function Dashboard() {
       <Can permissions={['metrics.list']}>
         <div>Componente a ser visualizado</div>
       </Can>
+      <div>ola</div>
 
 
     </>

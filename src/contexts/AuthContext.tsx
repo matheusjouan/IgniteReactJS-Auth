@@ -37,7 +37,7 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
   const router = useRouter();
 
   // Informações retornadas do usuário do backend
-  const [user, setUser] = useState<User>({} as User)
+  const [user, setUser] = useState<User>();
   const isAuthenticated = !!user;
 
   // Só roda no lado do ClientServer
